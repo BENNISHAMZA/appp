@@ -1,0 +1,25 @@
+.container{
+  width: 80%;
+  margin: 1em auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 1em;
+}
+.container .links{
+display: flex;
+justify-content: space-evenly;
+}
+.container .links div{
+  margin: auto 2em;
+
+}
+.container nav,a{
+  text-decoration: none;
+}
+.container .links a{
+  margin: auto 2em;
+  text-decoration: none;
+}
